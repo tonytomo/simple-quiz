@@ -24,6 +24,7 @@ jobs:
         env:
           BASE_PATH: '/${{ github.event.repository.name }}'
         run: |
+          echo "REACT_APP_BASE_PATH=$BASE_PATH" > .env
           npm run build
 
       - name: Upload Artifacts
