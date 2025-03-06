@@ -6,7 +6,7 @@
 	let pageDescription = 'Test your knowledge with this fun Svelte quiz app.';
 
 	function startQuiz() {
-		goto('/quiz.html');
+		goto('/simple-quiz/quiz.html');
 	}
 </script>
 

@@ -66,7 +66,7 @@
 	let pageDescription = 'Test your knowledge with this fun Svelte quiz app.';
 
 	function backToMenu() {
-		goto('/');
+		goto('/simple-quiz');
 	}
 </script>
 
